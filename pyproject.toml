@@ -1,0 +1,47 @@
+[project]
+name = "py-tiny-claw"
+version = "0.1.0"
+description = "极简智能体驾驭引擎 (Harness Engineering)，由 Go 移植为 Python"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "StudyRL port" }]
+license = { text = "MIT" }
+keywords = ["agent", "llm", "ai", "harness", "claw"]
+
+dependencies = [
+    "openai>=1.40.0",
+    "anthropic>=0.30.0",
+    "requests>=2.31.0",
+    "flask>=3.0.0",
+    "python-dotenv>=1.0.0",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "ruff>=0.4.0",
+    "pyinstaller>=6.0.0",
+]
+
+[project.scripts]
+claw = "main:main"
+agentops = "agentops:main"
+bench = "bench:main"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+extend-select = ["I", "B", "UP"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["claw*"]

@@ -1,0 +1,4 @@
+2025/01/01 00:00:00 [emerg] 1#1: unknown directive "locat" in /etc/nginx/nginx.conf:5
+2025/01/01 00:00:00 [emerg] 1#1: configuration file /etc/nginx/nginx.conf test failed
+2025/01/01 00:01:00 [error] 1#1: upstream prematurely closed connection while reading response header from upstream
+2025/01/01 00:01:01 [error] 1#1: *1 upstream sent invalid status "502 Bad Gateway" while reading response header from upstream

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 运行时产物
+workspace/.claw/traces/
+**/PLAN.md
+**/TODO.md
+
+# PyInstaller
+*.exe
+*.manifest
