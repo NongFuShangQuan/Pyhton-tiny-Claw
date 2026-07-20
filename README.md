@@ -91,7 +91,7 @@
 
 ```
 StudyRL/
-├── claw/                          # 核心库（对应 Go 版 internal/）
+├── claw/                          # 核心库
 │   ├── schema/                    # 消息与工具协议类型定义
 │   │   ├── __init__.py
 │   │   └── message.py             # Message, ToolCall, ToolResult, ToolDefinition, Usage
