@@ -255,9 +255,10 @@ python main.py --prompt "继续之前的任务" --session my_project_session
 | `--no-plan` | flag | `False` | 关闭 Plan Mode 状态外部化 |
 | `--session` | string | `cli_default_session` | 会话 ID（相同 ID 共享会话历史） |
 
-![image-20260720112650792](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20260720112650792.png)
+<img width="1136" height="580" alt="image" src="https://github.com/user-attachments/assets/d1a66373-4a0d-4b90-8a58-d1f86518b4f2" />
 
-![image-20260720112658898](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20260720112658898.png)
+<img width="1171" height="586" alt="image" src="https://github.com/user-attachments/assets/e4551d6d-b3ef-42f2-bc15-4d7ede877a52" />
+
 
 ### 模式二：交互式 REPL
 
@@ -285,9 +286,9 @@ claw --thinking --model glm-4.5-air
 
 详细命令列表见 [交互式 CLI 命令参考](#交互式-cli-命令参考)。
 
-![image-20260720112731588](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20260720112731588.png)
+<img width="1126" height="589" alt="image" src="https://github.com/user-attachments/assets/17dafb45-1102-4420-832a-a2859c5fccad" />
 
-![image-20260720112743990](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20260720112743990.png)
+<img width="1081" height="574" alt="image" src="https://github.com/user-attachments/assets/90304708-0f9c-4232-acaa-be5615189aae" />
 
 ### 模式三：飞书 AgentOps ChatOps
 
