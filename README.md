@@ -1,4 +1,9 @@
-# py-tiny-claw: 极简智能体驾驭引擎 (Python 版)
+<p align="center">
+  <strong>简体中文</strong> |
+  <a href="./README_EN.md">English</a>
+</p>
+
+# py-tiny-claw: 极简智能体驾驭引擎（Python 版）
 
 ## 目录
 
