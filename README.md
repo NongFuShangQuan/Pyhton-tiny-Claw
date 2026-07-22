@@ -311,6 +311,7 @@ python agentops.py
 - **人工审批流程**：Agent 执行 `write_file`/`edit_file`/危险 bash 命令时，自动向群聊发送审批请求，等待人工回复 `approve <task_id>` 或 `reject <task_id>`
 - 高危命令拦截：`rm -rf`、`sudo`、`kill`、`systemctl`、`nginx -s` 等操作自动触发审批
 - 通过 `threading.local` 实现 Reporter 上下文跨中间件传递
+<img width="2758" height="1428" alt="image" src="https://github.com/user-attachments/assets/79413bfe-78de-46c6-bd99-a23619fd2a8e" />
 
 ### 模式四：自动化跑分
 
