@@ -549,8 +549,8 @@ ExportTraceToFile(root_span, work_dir, session_id)
 | 模型 | 输入价格 | 输出价格 |
 |------|---------|---------|
 | `glm-4.5-air` | 0.15 | 0.15 |
-| `deepseek-chat` | 1.0 | 2.0 |
-| `deepseek-reasoner` | 4.0 | 16.0 |
+| `deepseek-V3` | 1.0 | 2.0 |
+| `deepseek-V4Pro` | 4.0 | 16.0 |
 | `deepseek-v4-flash` | 1.0 | 2.0 |
 
 ### Feishu — 飞书集成
